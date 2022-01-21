@@ -7,7 +7,7 @@ const router = express.Router()
 router
     .get('/', (req, res) => res.send('Hello from Docker!'))
     .get('/greetings/:name',
-            (req, res) => res.send(`Hello, ${req.params.name}`))
+        (req, res) => res.send(`Hello, ${req.params.name}!`))
 
 // Export the router
 module.exports = router
