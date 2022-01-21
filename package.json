@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_docker_tutorial",
+  "version": "1.0.0",
+  "description": "Node js and Docker tutorial",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "docker",
+    "devops"
+  ],
+  "author": "Ahmed A. Elkhalifa",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
